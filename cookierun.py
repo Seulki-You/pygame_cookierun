@@ -3,8 +3,10 @@ from pygame.locals import *
 import math
 import random
 
+def gitprint():
+    print('git!!')
 
-
+    
 class Cookie(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
